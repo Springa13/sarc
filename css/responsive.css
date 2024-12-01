@@ -1,0 +1,31 @@
+@media screen and (max-width: 1000px) {
+    .main {
+        width: 95vw;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    a {
+        font-size: medium;
+    }
+  }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+    }
+}
+
+

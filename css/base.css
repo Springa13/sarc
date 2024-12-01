@@ -1,0 +1,222 @@
+html {
+    font-family: "Electrolize", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+}
+
+p {
+    color: white;
+    margin: 0;
+}
+
+.nav {
+    margin: auto;
+    width: 60%;
+    height: auto;
+    background-color: none;
+    align-content: center;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    border-color: gold;
+    padding-bottom: 10px;
+    
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+    font-size: large;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5%;
+}
+
+a:hover {
+    color: gold;
+}
+
+.main {
+    display: block;
+    background-color: black;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    opacity: 1;
+    border-width: 2px;
+    border-style: none;
+    border-color: gold;
+    font-size: 18px;
+}
+
+p, h1, h2 {
+    color: white;
+}
+
+.header {
+    display: flex;
+    margin: auto;
+}
+
+.sarc {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.test {
+    width: 100px;
+}
+
+.current { 
+    color: gold;
+}
+
+.project-item {
+    display: block;
+    margin: auto;
+    background-color: black;
+    width: 95%;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 2px solid silver;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.project-item:hover {
+    width: 100%;
+    height: 200px;
+    color: gold;
+    animation-name: example;
+    animation-duration: 0.3s;
+    border: 3px solid gold;
+    .arrow {
+        color: gold;
+    }
+}
+
+@keyframes example {
+    from {width: 95%;
+        height: 200px;
+        border-color: silver;
+    }
+    to {
+        width: 100%;
+        height: 200px;
+        border-color: gold;
+    }
+  }
+
+h1, p {
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+    font-size: 15px; 
+    
+}
+
+.arrow {
+    /* margin-top: 0px; */
+    font-size: 50px;
+    text-align: right;
+    margin-right: 40px;
+    color: silver;
+    margin-bottom: 15px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.load-text {
+    font-size: 18px;
+}
+
+.load-more {
+    width: 20%;
+    height: 60px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 2px solid silver;
+    border-radius: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.load-more:hover {
+    width: 25%;
+    height: 60px;
+    border: 3px solid gold;
+    animation-name: hello;
+    animation-duration: 0.3s;
+}
+
+@keyframes hello {
+    from {
+        width: 20%;
+        border: 2px solid silver;
+    }
+    to {
+        width: 25%;
+        border: 3px solid gold;
+    }
+  }
+
+
+.refiners-div {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: middle;
+    justify-content: center;
+}
+
+.searcher {
+    display: block;
+    background-color: black;
+    width: 25%;
+    color: white;
+    font-family: "Electrolize", sans-serif;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.tag-btn {
+    margin-left: 10px;
+    background-color: black;
+    border: 1px solid skyblue;
+    color: white;
+    border-radius: 10px;
+    width: 50px;
+    height: 25px;
+    font-family: "Electrolize", sans-serif;
+}
+
+.tag-btn:hover {
+    margin-left: 10px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    color: black;
+    
+    border-radius: 10px;
+}
+
+
+
